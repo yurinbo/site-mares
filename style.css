@@ -1,0 +1,139 @@
+html, body{
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#imagem_fundo1 {
+    background: url(../img/fundo.jpg);
+    height:80%;
+    text-align: center;
+    background-size: cover;
+}
+
+#titulo1 {
+    color: rgb(255, 255, 255);
+    padding-top: 10%;
+    font-size: 100px;
+    line-height: 1;
+}
+
+#subtitulo1 {
+    color: rgb(255, 255, 255);
+    padding: 0 20% 0 20%;
+}
+
+#botao {
+    color: rgb(255, 255, 255);
+    background-color: rgba(250, 235, 215, 0.106);
+    font-size: 19px;
+    width: 100px;
+    height: 40px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 100px;
+}
+
+.coluna {
+    float: left;
+    padding: 1% 5%;
+    position: relative;
+}
+
+.dois {
+    width: 40%;
+}
+
+.centralizado {
+    text-align: center;
+}
+
+.justificado {
+    text-align: center;
+}
+
+.destaque1 {
+    background-color: rgb(14, 18, 53);
+    width: 100%;
+}
+
+section {
+    padding:  40px;
+    float: left;
+}
+
+.quatro {
+    width: 15%;
+}
+
+.tres {
+    width: 29%;
+    padding: 0% 2%;
+}
+
+.justificado {
+    text-align: justify;
+}
+
+.centralizado {
+    text-align: center;
+}
+
+
+.icone {
+    width: 51px;
+}
+
+.imgeco {
+    width: 80%;
+    height: 30%;
+}
+
+.corp {
+    color: black;
+}
+
+.corp2 {
+    color: rgb(255, 255, 255);
+}
+
+#logo {
+    width: 96px;
+    position: absolute;
+    top: 10px;
+    margin-left: 5%;
+}
+
+#logodiv{
+    width: 100%;
+    position: relative;
+    padding: 0px;
+}
+
+#menu {
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+    margin-top: 0px;
+}
+
+li {
+    float: left;
+    padding: 20 10 20 10;
+}
+
+li:hover{
+    background-color: rgba(255, 255, 255, 0.452);
+}
+
+header {
+    background-color: black;
+    color: aliceblue;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+.cors {
+    color: white;
+    background-color: rgb(14, 53, 51);
+}
